@@ -1,0 +1,75 @@
+body.fondo{
+    background-color: #ABE1FF;
+    width: 1440px;
+    height: 1024px;
+}
+div.cabecera {
+    height: 139px;
+    flex-shrink: 0;
+    left: -2px;
+    background-color: #0038FF;
+}
+
+img.perfil {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 100px;
+    left: 593px;
+    border-radius: 250px;
+    background: url(../assets/logos/descarga.png), lightgray 50% / cover no-repeat;
+
+}
+
+h1.nombre {
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    /* Cabecera texto */
+    font-family: Jost;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: 30px;
+}
+
+div.login{
+    position: relative;
+    width: 434px;
+    height: 252px;
+    top: 150px;
+    left: 503px;
+    border-radius: 20px;
+    background-color: #72AAFF;
+
+}
+input.username{
+    background-color: #72AAFF;
+    position: relative;
+    width: 376px;
+    top: 50px;
+    left: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+input.password{
+    background-color: #72AAFF;
+    position: relative;
+    width: 376px;
+    top: 75px;
+    left: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+button.boton{
+    position:relative;
+    width: 153px;
+    height: 40px;
+    top: 125px;
+    left: 250px;
+    border-radius: 20px;
+    background-color: #0038FF;
+}
