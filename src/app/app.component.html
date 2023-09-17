@@ -6,9 +6,11 @@
     <img class="perfil"/>
   </div>
   <div class="login">
-    <input class="username" placeholder="Username" type="text" pInputText/>
-    <input class="password"  placeholder="Contraseña" type="password" pInputText/>
-    <button class="boton">Login</button>
+    <form method="post">
+    <input type="text" [(ngModel)]="username" name="username" class="username" placeholder="Username" />
+    <input type="password" [(ngModel)]="password" name="password"class="password"  placeholder="Contraseña" />
+  </form>
+  <button class="boton" (click)="getLogin()">Login</button>
   </div>
 </body>
 

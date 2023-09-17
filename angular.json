@@ -60,6 +60,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": { 
+            "browserTarget": "hosteleria:build", 
+            "proxyConfig": "proxy.conf.json" 
+        },
           "configurations": {
             "production": {
               "browserTarget": "hosteleria:build:production"
@@ -98,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a7411b34-533f-47b0-bfd1-4f0203a08f4a"
   }
 }

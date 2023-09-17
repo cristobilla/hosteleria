@@ -1,0 +1,9 @@
+{ 
+    "/api": {
+        "target": "https://hosteleria-backend2-8esd-dev.fl0.io",
+        "secure": false,
+        "pathRewrite": {
+            "^/api": ""
+        }
+    }
+}
